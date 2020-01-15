@@ -4,8 +4,10 @@ import Results from "./Results";
 
 class HomePage extends Component {
   formOrResults() {
+    const { score } = this.state;
     // Figure out where & what state is, and from there this logic will run.
-    if (state === null) {
+    // Once state has been pulled, multiply it by 2 for use.
+    if (score === null) {
       return <Form />;
     }
     return <Results />;
