@@ -6,12 +6,12 @@ class App extends Component {
   render() {
     return(
       <BrowserRouter>
-      <div>
-        <Switch>
-          <Route exact path="/relaxation_station" component={HomePage} />
+        <div>
+          <Switch>
+            <Route exact path="/relaxation_station" component={HomePage} />
           </Switch>
-          </div>
-          </BrowserRouter>
+        </div>
+      </BrowserRouter>
     );
   }
 }
