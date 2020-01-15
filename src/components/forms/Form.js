@@ -12,7 +12,8 @@ const SimpleForm = props => {
             name="feelingtoday"
             component="input"
             type="number"
-            placeholder="rating from 1 to 10"
+            min= "0"
+            max= "10"
           />
         </div>
       </div>
@@ -23,7 +24,8 @@ const SimpleForm = props => {
             name="feelingoverthelastweek"
             component="input"
             type="number"
-            placeholder="rating from 1 to 10"
+            min= "0"
+            max= "10"
           />
         </div>
       </div>
@@ -34,7 +36,8 @@ const SimpleForm = props => {
             name="feelingforfuture"
             component="input"
             type="number"
-            placeholder="rating from 1 to 10"
+            min= "0"
+            max= "10"
           />
         </div>
       </div>
@@ -45,7 +48,8 @@ const SimpleForm = props => {
             name="personalife"
             component="input"
             type="number"
-            placeholder="rating from 1 to 10"
+            min= "0"
+            max= "10"
           />
         </div>
       </div>
@@ -56,7 +60,8 @@ const SimpleForm = props => {
             name="feelingaboutbed"
             component="input"
             type="number"
-            placeholder="rating from 1 to 10"
+            min= "0"
+            max= "10"
           />
         </div>
       </div>
