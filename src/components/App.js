@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Homepage from "./pages/HomePage";
+import HomePage from "./pages/HomePage";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
-    return (
+    return(
       <BrowserRouter>
       <div>
         <Switch>
