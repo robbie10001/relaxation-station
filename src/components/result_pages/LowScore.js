@@ -15,9 +15,9 @@ class LowScore extends Component {
         <h4>Here are some helpful links:</h4>
       
         <ul>
-          <li><a href="https://www.beyondblue.org.au">Beyond Blue</a></li>
-          <li><a href="https://www.lifeline.org.au">LifeLine</a></li>
-          <li><a href="https://www.blackdoginstitute.org.au">Black Dog Institute</a></li>
+          <li><a href="https://www.beyondblue.org.au" target="_blank">Beyond Blue</a></li>
+          <li><a href="https://www.lifeline.org.au" target="_blank">LifeLine</a></li>
+          <li><a href="https://www.blackdoginstitute.org.au" target="_blank">Black Dog Institute</a></li>
         </ul>
       </div>
     )
