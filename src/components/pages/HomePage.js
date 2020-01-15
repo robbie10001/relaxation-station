@@ -3,6 +3,14 @@ import Form from "./../forms/Form";
 import Results from "./Results";
 
 class HomePage extends Component {
+  formOrResults() {
+    // Figure out where & what state is, and from there this logic will run.
+    if (state === null) {
+      return <Form />;
+    }
+    return <Results />;
+  }
+
   render() {
     return (
       <div>
@@ -11,9 +19,8 @@ class HomePage extends Component {
         </h1>
         <div>
           <h3>How have you been feeling today?</h3>
-          <Form />
         </div>
-        <Results />
+        {this.formOrResults()}
       </div>
     );
   }
