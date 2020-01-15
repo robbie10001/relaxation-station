@@ -1,7 +1,4 @@
-// import { createStore } from "redux";
-// import state from "./reducers"; //Importing a dir auto imports the index.js
+import { createStore } from "redux";
+import reducers from "./reducers"
 
-// export default createStore(
-//   state,
-//   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-//   );
+export default createStore(reducers);

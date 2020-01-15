@@ -11,6 +11,7 @@ class HomePage extends Component {
         </h1>
         <div>
           <h3>How have you been feeling today?</h3>
+          <Form />
         </div>
         <Results />
       </div>
