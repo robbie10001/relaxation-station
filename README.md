@@ -41,13 +41,13 @@ https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/cognitive-beh
 
 #### If user responds with a mood of 0 to 3, the following will render
 
-Your mood is very low. I think it may be time to see a health care professional.
+Your mood is very low. It may be time to see a health care professional.
 
 #### Tips 
 
-Seek the advice of a mental health profession.
-Seek guidance from your general practioner if you don't know where to turn.
-Get a mental health plan from your general practioner. This will allow you to claim visits to a a psychologist or psychiatrist through medicare.
+Seek the advice of a mental health professional.
+Seek guidance from your general practitioner if you don't know where to turn.
+Get a mental health plan from your general practitioner. This will allow you to claim visits to a a psychologist or psychiatrist through medicare.
 
 #### Links- 
 https://www.beyondblue.org.au
