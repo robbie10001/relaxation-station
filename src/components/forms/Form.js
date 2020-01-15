@@ -53,7 +53,7 @@ const SimpleForm = props => {
         <label>Are you finding it difficult to get out of bed?</label>
         <div>
           <Field
-            name="feelingoverthelastweek"
+            name="feelingaboutbed"
             component="input"
             type="number"
             placeholder="rating from 1 to 10"
