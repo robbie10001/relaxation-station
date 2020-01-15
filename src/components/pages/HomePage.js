@@ -1,16 +1,24 @@
 import React, { Component } from "react";
+import {score} from "../../actions"
+import {connect} from "react-redux"
 import Form from "./../forms/Form";
 import Results from "./Results";
 
 class HomePage extends Component {
+  state = { score: null}
+  componentDidMount(){
+    // console.log(this.props.score)
+  }
   formOrResults() {
+    
     const { score } = this.state;
-    // Figure out where & what state is, and from there this logic will run.
-    // Once state has been pulled, multiply it by 2 for use.
+ 
+    // // Figure out where & what state is, and from there this logic will run.
+    // // Once state has been pulled, multiply it by 2 for use.
     if (score === null) {
       return <Form />;
     }
-    return <Results />;
+    return <Results score={this.state.score}/>;
   }
 
   render() {
@@ -28,4 +36,8 @@ class HomePage extends Component {
   }
 }
 
-export default HomePage;
+const mapStateToProps =(state)=> {
+  return {score: state.score}
+}
+
+export default connect(mapStateToProps, {score})(HomePage);
