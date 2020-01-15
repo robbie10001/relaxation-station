@@ -16,10 +16,10 @@ class MidScore extends Component {
         <h4>Here are some helpful links:</h4>
       
         <ul>
-          <li><a href="https://www.everydayhealth.com">Everyday Health</a></li>
-          <li><a href="https://www.cci.health.wa.gov.au">Centre for Clinical Intervention</a></li>
-          <li><a href="https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/cognitive-behaviour-therapy">Cognitive Behavioral Therapy</a></li>
-          <li><a href="https://www.smilingmind.com.au/">Smiling Mind</a></li>
+          <li><a target="_blank" href="https://www.everydayhealth.com">Everyday Health</a></li>
+          <li><a target="_blank" href="https://www.cci.health.wa.gov.au">Centre for Clinical Intervention</a></li>
+          <li><a target="_blank" href="https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/cognitive-behaviour-therapy">Cognitive Behavioral Therapy</a></li>
+          <li><a target="_blank" href="https://www.smilingmind.com.au/">Smiling Mind</a></li>
         </ul>
       </div>
     )

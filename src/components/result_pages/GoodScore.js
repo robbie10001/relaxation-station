@@ -17,10 +17,10 @@ class GoodScore extends Component {
         <h4>Here are some helpful links:</h4>
       
         <ul>
-          <li><a href="https://www.healthdirect.gov.au/diet-and-mental-health">Health Direct</a></li>
-          <li><a href="https://www.yogaaustralia.org.au">Yoga Australia</a></li>
-          <li><a href="www.taichiaustralia.com.au">Tai-Chi Australia</a></li>
-          <li><a href="https://www.smilingmind.com.au/">Smiling Mind</a></li>
+          <li><a target="_blank" href="https://www.healthdirect.gov.au/diet-and-mental-health">Health Direct</a></li>
+          <li><a target="_blank" href="https://www.yogaaustralia.org.au">Yoga Australia</a></li>
+          <li><a target="_blank" href="www.taichiaustralia.com.au">Tai-Chi Australia</a></li>
+          <li><a target="_blank" href="https://www.smilingmind.com.au/">Smiling Mind</a></li>
         </ul>
       </div>
     )
