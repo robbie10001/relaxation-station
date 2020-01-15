@@ -6,81 +6,58 @@ const SimpleForm = props => {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label>First Name</label>
+        <label>How are you feeling today?</label>
         <div>
           <Field
-            name="firstName"
+            name="feelingtoday"
             component="input"
-            type="text"
-            placeholder="First Name"
+            type="number"
+            placeholder="rating from 1 to 10"
           />
         </div>
       </div>
       <div>
-        <label>Last Name</label>
+        <label>How have you felt over the last week?</label>
         <div>
           <Field
-            name="lastName"
+            name="feelingoverthelastweek"
             component="input"
-            type="text"
-            placeholder="Last Name"
+            type="number"
+            placeholder="rating from 1 to 10"
           />
         </div>
       </div>
       <div>
-        <label>Email</label>
+        <label>How are you feeling about the future?</label>
         <div>
           <Field
-            name="email"
+            name="feelingforfuture"
             component="input"
-            type="email"
-            placeholder="Email"
+            type="number"
+            placeholder="rating from 1 to 10"
           />
         </div>
       </div>
       <div>
-        <label>Sex</label>
-        <div>
-          <label>
-            <Field name="sex" component="input" type="radio" value="male" />{' '}
-            Male
-          </label>
-          <label>
-            <Field name="sex" component="input" type="radio" value="female" />{' '}
-            Female
-          </label>
-          <label>
-            <Field name="sex" component="input" type="radio" value="other" />{' '}
-            Other
-          </label>
-        </div>
-      </div>
-      {/* <div>
-        <label>Favorite Color</label>
-        <div>
-          <Field name="favoriteColor" component="select">
-            <option />
-            <option value="ff0000">Red</option>
-            <option value="00ff00">Green</option>
-            <option value="0000ff">Blue</option>
-          </Field>
-        </div>
-      </div> */}
-      <div>
-        <label htmlFor="employed">Employed</label>
+        <label>How is your personal life?</label>
         <div>
           <Field
-            name="employed"
-            id="employed"
+            name="personalife"
             component="input"
-            type="checkbox"
+            type="number"
+            placeholder="rating from 1 to 10"
           />
         </div>
       </div>
       <div>
-        <label>Notes</label>
+        <label>Are you finding it difficult to get out of bed?</label>
         <div>
-          <Field name="notes" component="textarea" />
+          <Field
+            name="feelingoverthelastweek"
+            component="input"
+            type="number"
+            placeholder="rating from 1 to 10"
+          />
         </div>
       </div>
       <div>
