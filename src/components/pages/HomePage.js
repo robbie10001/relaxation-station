@@ -5,7 +5,7 @@ import Form from "./../forms/Form";
 import Results from "./Results";
 
 class HomePage extends Component {
-  state = { score: null}
+  state = { score: 45}
   componentDidMount(){
     // console.log(this.props.score)
   }

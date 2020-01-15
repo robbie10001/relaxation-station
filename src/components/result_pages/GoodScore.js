@@ -4,6 +4,7 @@ class GoodScore extends Component {
   render() {
     return (
       <div>
+        <hr />
         <h3>Well done, your mood is great at the moment!</h3>
         <h4>In order to maintain this mood, we suggest the following:</h4>
     

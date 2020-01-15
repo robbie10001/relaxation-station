@@ -4,6 +4,7 @@ class MidScore extends Component {
   render() {
     return (
       <div>
+        <hr />
         <h3>Your mood is not too bad, but it would be awesome if you could improve it just a bit!</h3>
         <h4>Can we suggest you take the following steps?</h4>
     

@@ -4,6 +4,7 @@ class LowScore extends Component {
   render() {
     return (
       <div>
+        <hr />
         <h3>Your mood is very low. It may be time to see a health care professional.</h3>
     
         <ul>
