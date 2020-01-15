@@ -6,3 +6,5 @@ class App extends Component {
     return null;
   }
 }
+
+export default App;
