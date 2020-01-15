@@ -1,6 +1,6 @@
-export const score = { score = null} => {
+export const score = state => {
     return {
         type: "SCORE",
-        payload: score
+        payload: state.score
     }
 }

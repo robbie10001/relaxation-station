@@ -4,6 +4,8 @@ import MidScore from "../result_pages/MidScore";
 import LowScore from "../result_pages/LowScore";
 
 class Results extends Component {
+  state= {score: this.props.score}
+
   getResultScore() {
     const { score } = this.state;
     if (score > 40) {
