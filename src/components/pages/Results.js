@@ -6,7 +6,7 @@ import LowScore from "../result_pages/LowScore";
 class Results extends Component {
   getResultScore() {
     const score = 85;
-    // Grab score from the form
+    // Grab score from the form/state
     if (score > 80) {
       return (<GoodScore />);
     } else if (score > 40 && score < 80) {
