@@ -12,6 +12,7 @@ class HomePage extends Component {
         <div>
           <h3>How have you been feeling today?</h3>
         </div>
+        <Results />
       </div>
     );
   }
