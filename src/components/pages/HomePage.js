@@ -9,7 +9,7 @@ class HomePage extends Component {
         <h1>Welcome to the <i>Relaxation Station</i>!</h1>
         <div>
           <h3>How have you been feeling today?</h3>
-          {/* <Form /> */}
+          <Form />
         </div>
       </div>
     )
